@@ -15,7 +15,7 @@ function myFunction() {
 //Toggle between light and dark mode
 function colorModeSwitch () {
     const mode = localStorage['colorMode']
-    document.body.classList.toggle('darkMode', mode)
+    document.body.classList.toggle(mode, 'darkMode')
   }
 
 const checkbox         = document.querySelector('#chk')
